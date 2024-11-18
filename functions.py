@@ -7,6 +7,15 @@ def reverse_list(lst):
     :return: A list with elements in reverse order.
     """
     pass  # Implement this
+list = [ 1 , 2, 3, 4 ]
+list.reverse()
+print (list)
+
+reverse_list(list)
+
+
+
+
 
 def count_occurrences(lst, element):
     """
@@ -16,6 +25,7 @@ def count_occurrences(lst, element):
     :return: Integer count of occurrences.
     """
     pass  # Implement this
+
 
 def get_keys_with_value(dct, value):
     """
@@ -35,6 +45,14 @@ def merge_sorted_lists(lst1, lst2):
     """
     pass  # Implement this
 
+lst1= [ "Banana" , "Apples " , "Mango"]
+lst2 = [ "Avo", "Brocolli"]
+lst3 = lst1 + lst2 
+print (lst3)
+
+merge_sorted_lists(lst1 , lst2 )
+ 
+
 def find_second_largest(numbers):
     """
     Finds the second largest number in a list.
@@ -42,6 +60,9 @@ def find_second_largest(numbers):
     :return: The second largest integer.
     """
     pass  # Implement this
+numbers = [ 1, 2 , 3, 4 ,5]
+
+ 
 
 def is_anagram(str1, str2):
     """
@@ -56,6 +77,12 @@ def is_anagram(str1, str2):
     :return: True if the strings are anagrams, False otherwise.
     """
     pass  # Implement this
+str1 = "listen"
+str2 = "silent"
+if str1.reverse() == str2.reverse():
+    print (True)
+else:
+    print (False)
 
 
 def flatten_list(nested_list):
@@ -74,6 +101,7 @@ def remove_duplicates(lst):
     :return: List without duplicates.
     """
     pass  # Implement this
+
 
 def find_common_elements(lst1, lst2):
     """
